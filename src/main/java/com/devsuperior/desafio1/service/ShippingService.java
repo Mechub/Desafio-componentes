@@ -1,5 +1,8 @@
 package com.devsuperior.desafio1.service;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class ShippingService {
 
     public double shipment(double value) {

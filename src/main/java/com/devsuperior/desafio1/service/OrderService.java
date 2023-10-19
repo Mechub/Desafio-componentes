@@ -1,7 +1,9 @@
 package com.devsuperior.desafio1.service;
 
-import com.devsuperior.desafio1.entities.Order;
+import org.springframework.stereotype.Service;
 
+import com.devsuperior.desafio1.entities.Order;
+@Service
 public class OrderService {
 
     public double calculateDiscount(Order order) {
